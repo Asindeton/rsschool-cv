@@ -28,3 +28,9 @@ img{
     border-bottom: 1px solid;
     padding: 10px;
 }
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
