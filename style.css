@@ -1,0 +1,36 @@
+body{
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 10px;
+    font-size: 1.5em;
+    background-color: rgba(0,0,0,.3);
+}
+
+div{
+    box-sizing: border-box;
+}
+
+.header__img{
+    width: 100%;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+}
+
+.header__info-contact-wrapper{
+    border-bottom: 1px solid;
+    padding: 10px;
+}
+
+.resume__item{
+    border-bottom: 1px solid;
+    padding: 10px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
