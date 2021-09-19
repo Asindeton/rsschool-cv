@@ -1,92 +1,209 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <title>CV / Legankov Dmitry</title>
 </head>
+
 <body>
-    <div class="wrapper">
-        <header>
-            <div class="header__img">
-                <img src="./assets/logo-rs.svg" alt="my_photo">
+  <div class="wrapper">
+    <header>
+      <nav>
+        <div><a href="#experience">Experience</a></div>
+        <div><a href="#education">Education</a></div>
+        <div><a href="#projects">Projects</a></div>
+        <div><a href="#additional">Additional info</a></div>
+      </nav>
+      <div class="menu_burger"><span></span></div>
+    </header>
+    <main>
+      <div class="main_container">
+        <section class="title_wrapper">
+          <h1>Legankov Dmitry</h1>
+          <h2>Junior front-end developer</h2>
+        </section>
+        <section>
+          <h3 id="experience">Experience</h3>
+          <div class="block_wrapper">
+            <div class="title">Full stack developer</div>
+            <div class="place">Webfocus</div>
+            <div class="years">Nov 2020 - Present, Minsk</div>
+            <div class="description">Website development on GatsbyJS (ReactJS) + WordPress (GraphQL).
+              Development of a mobile application in React-native (Exopo) (TypeScript) + NodeJS
+              (ExpressJS) + MySQL. Maintenance and creation of projects on WordPress. Also, tight work
+              with hosting, obtaining SSL certificates, setting up DNS addresses, integrating Git with
+              sPanel, and more. </div>
+          </div>
+          <div class="block_wrapper">
+            <div class="title">Freelance</div>
+            <div class="place">Home Enterprise</div>
+            <div class="years">Jun 2020 - Nov 202 - 11 month, Minsk</div>
+            <div class="description">Execution of orders on the exchange, mainly related to layout </div>
+          </div>
+        </section>
+        <section>
+          <h3 id="education">Education</h3>
+          <div class="block_wrapper">
+            <div class="title">Technology of Mechanical Engineering</div>
+            <div class="place">Belarusian National Technical University (Mechanical Engineering Faculty)
             </div>
-            <div class="header__info">
-                <h1 class="header__info-title">Legankov Dmitry</h1>
-                <div class="header__info-contact-wrapper">
-                    <div class="header__info-contact-item">
-                        <div class="header__info-contact-title">
-                            Email:
-                        </div>
-                        <a class="header__info-contact-text" href="mailto:legankov95@gmail.com">legankov95@gmail.com</a>
-                    </div>
-                    <div class="header__info-contact-item">
-                        <div class="header__info-contact-title">
-                            Telegram:
-                        </div>
-                        <a class="header__info-contact-text" href="https://t.me/Legnkov95">https://t.me/Legnkov95</a>
-                    </div>
-                    <div class="header__info-contact-item">
-                        <div class="header__info-contact-title">
-                            Phone:
-                        </div>
-                        <a class="header__info-contact-text" href="tel:+375296036823">+375296036823</a>
-                    </div>
-                </div>
+            <div class="description">2016-2021, Minsk</div>
+          </div>
+          <div class="block_wrapper">
+            <div class="title"><a href="https://app.rs.school/certificate/1wxr8f78">JS/FE 2020 Q3
+                (JAVASCRIPT)</a></div>
+            <div class="place">The Rolling Scopes School</div>
+            <div class="years">2020-2021, Minsk</div>
+          </div>
+          <div class="block_wrapper">
+            <div class="title"><a href="https://app.rs.school/certificate/2e0u67v8">RS 2019 Q3
+                (JavaScript)</a></div>
+            <div class="place">The Rolling Scopes School</div>
+            <div class="years">2019-2020, Minsk</div>
+          </div>
+          <div class="block_wrapper">
+            <div class="title">Mechatronic</div>
+            <div class="place">College of Modern Technologies in Mechanical Engineering and Car Service
             </div>
-        </header>
-        <main>
-            <div class="resume__item">
-                <h2 class="resume__title">Summary</h2>
-                <div class="resume__text">
-                    <p>24 years old. RSS-2019-Q3 student.</p>
-                    <p>There is the great opportunity to work without tying yourself to time and place in modern society, and I am going to take advantage of this for all 100%.</p>
-                </div>
+            <div class="years">2011-2016, Minsk</div>
+          </div>
+          <div class="block_wrapper">
+            <div class="title">General education</div>
+            <div class="place">School №48</div>
+            <div class="years">2002-2011, Minsk</div>
+          </div>
+        </section>
+        <section>
+          <h3 id="projects">Projects</h3>
+          <div class="block_wrapper">
+            <div class="title"><a href="https://webfocus.by/" target="_blank">Webfocus</a></div>
+            <div class="years">WordPress, PHP, HTML, CSS(SCSS), JS, Json Animation(Lottie), Slick Slider</div>
+            <div class="description projects">
+              The site of my current job. Works for WordPress, while having high speed indicators. The main difficulties
+              encountered in the development of this site are the number of categories and the number of pages.
             </div>
-            <div class="resume__item">
-                <h2 class="resume__title">My Skills</h2>
-                <ul>
-                    <li>HTML</li>
-                    <li>CSS(SCSS)</li>
-                    <li>JavaScript</li>
-                    <li>React</li>
-                </ul>
+            <div><img src="./assets/Снимок экрана 2021-09-19 173205.png" alt="webfocus" loading="lazy"></div>
+          </div>
+          <div class="block_wrapper">
+            <div class="title"><a href="https://bpm-cloud.by/" target="_blank">Bpm-cloud</a></div>
+            <div class="years">React, GatsbyJS, WordPress(GraphQL), Apollo GraphQL, CSS(SCSS)</div>
+            <div class="description projects">
+              This site is powered by GatsbyJS, using WordPress as headless cms (GraphQL). Database mutation via website
+              (comments) implemented using Apollo GraphQL. The site implements PWA, and SSR.
             </div>
-            <div class="resume__item">
-                <h2 class="resume__title">Experience</h2>
-                <div class="resume__text">
-                    <p>I have the experience in using modern programming languages to solve problems in the field of material resistance and theory of machines and mechanisms.</p>
-                </div>
+            <div><img src="./assets/Снимок экрана 2021-09-19 173754.png" alt="bpm-cloud.by" loading="lazy"></div>
+
+          </div>
+          <div class="block_wrapper">
+            <div class="title"><a href="https://skinroom.by/">skinroom.by</a></div>
+            <div class="years">React, NextJS, CSS(SCSS), TelegramAPI</div>
+            <div class="description projects">A simple landing page, in this project NextJS was used to get to know it.
+              From the interesting, TelegramAPI is used for processing forms. The telegram contains a group to which the
+              bot sends data from the forms.</div>
+            <div><img src="./assets/Снимок экрана 2021-09-19 180733.png" alt="skinroom.by" loading="lazy"></div>
+
+          </div>
+        </section>
+        <section>
+          <h3 id="additional">Additional info</h3>
+          <div class="block_wrapper">
+            <div class="title">About me</div>
+            <div class="description">I am a Front-end developer, I have the necessary set of tools to
+              perform any tasks.
+              Participated in international competitions in industrial programming (Industrial
+              controllers) (WorldSkills (2016-2020)) China Championship (Shanghai), EAEU Championship
+              (Krasnodar), World Championship (Abu Dhabi).
+              Since 2019, I have been actively studying and working in the direction of Web development.
             </div>
-            <div class="resume__item">
-                <h2 class="resume__title">English</h2>
-                <div class="resume__text">
-                    <p>Level: A2</p>
-                </div>
+          </div>
+          <div class="block_wrapper">
+            <div class="title">Code Example</div>
+            <div class="description codewars">CodeWars, <a
+                href="https://www.codewars.com/kata/5262119038c0985a5b00029f/javascript">Is a number prime?</a></div>
+            <div class="description code">
+              <pre><code class="language-javascript hljs">const isPrime = num => {
+    for(let i = 2, s = Math.sqrt(num); i <= s; i++)
+        if(num % i === 0) return false; 
+    return num > 1;
+  }
+}</code></pre>
             </div>
-            <div class="resume__item">
-                <h2 class="resume__title">Education</h2>
-                <div class="resume__text">
-                    <p>2016-2021.</p>
-                    <p>RSS-2019-Q3</p>
-                    <p>HTML & CSS courses</p>
-                </div>
-            </div>
-        </main>
-        <footer class="footer">
-            <div class="footer__item">
-                <a href="mailto:legankov95@gmail.com">Email</a>
-            </div>
-            <div class="footer__item">
-                <a href="https://t.me/Legnkov95">Telegram</a>
-            </div>
-            <div class="footer__item">
-                <a href="tel:+375296036823">Phone</a>
-            </div>
-        </footer>
-    </div>
+          </div>
+        </section>
+      </div>
+      <aside>
+        <div class="image_wrapper">
+          <img src="./assets/IMG_20200729_202001.jpg" alt="avatar" loading="lazy" />
+        </div>
+        <div class="main_info">
+          <ul>
+            <li><a href="mailto:legankov95@gmail.com">legankov95@gmail.com</a></li>
+            <li><a href="tel:+375296036823">+375296036823</a></li>
+            <li><a href="https://goo.gl/maps/vnHugUn8h69LkzDj8">Minsk, Republic of Belarus</a></li>
+          </ul>
+        </div>
+        <div class="aside_block_wrapper">
+          <h3>Industry Knowledge</h3>
+          <ul>
+            <li>HTML, CSS, JS</li>
+            <li>SASS(SCSS), Materialize</li>
+            <li>React, React-native, Redux</li>
+            <li>NodeJS, ExpressJS</li>
+            <li>MongoDB, MySQL</li>
+            <li>Webpack</li>
+            <li>Git</li>
+          </ul>
+        </div>
+        <div class="aside_block_wrapper">
+          <h3>Tools & Technologies</h3>
+          <ul>
+            <li>Figma, PSDreader</li>
+            <li>VScode</li>
+            <li>Jira, Trello, PlanFix</li>
+            <li>sPanel, ispManager</li>
+          </ul>
+        </div>
+        <div class="aside_block_wrapper">
+          <h3>Other Skills</h3>
+          <ul>
+            <li>AutoCAD, КОМПАС, MathCAD</li>
+            <li>Step 7</li>
+            <li>G-code</li>
+          </ul>
+        </div>
+        <div class="aside_block_wrapper">
+          <h3>languages</h3>
+          <ul>
+            <li>Russian(native)</li>
+            <li>English(A2-B1)</li>
+          </ul>
+        </div>
+        <div class="aside_block_wrapper">
+          <h3>Social</h3>
+          <ul>
+            <li><a href="https://vk.com/id32866092">VK</a></li>
+            <li><a href="https://t.me/Legnkov95">Telegram</a></li>
+            <li><a href="https://www.linkedin.com/in/dmitry-legankov/">Linkedin</a></li>
+          </ul>
+        </div>
+      </aside>
+    </main>
+    <footer>
+      <nav>
+        <div class="git"><a href="https://github.com/Asindeton">GitHub</a></div>
+        <div class="year">2021</div>
+        <div class="rs_logo"><a href="https://rs.school/js/"><img src="./assets/rs_school_js.svg" alt="rs-logo" /></a>
+        </div>
+      </nav>
+    </footer>
+  </div>
 </body>
 <script src="./script.js"></script>
 </html>
